@@ -1,0 +1,52 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <h1>Cheezcakes!</h1>
+    <h2> Información de pedido: </h2>
+   
+    <label for="nombrePedido"> Nomre de comprador </label><br>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="correo">Correo electrónico</label><br>
+    <input type="email" id="correo" name="correo"><br><br>
+    <label for="telefono">Teléfono de contacto</label><br>
+    <input type="tel" id="telelfono" name="telefono" maxlength="10"><br><br>
+    
+    <input type="radio" name="cheezcakeOrig" id="cheezcakeOrig" value="cheezcakeOrig">
+    <label for="cheezcakeOrig">CheezCake Original</label><br>
+    <input type="radio" name="3leches" id="3leches" value="3leches">
+    <label for="3leches">Pastel Tres leches</label><br>
+    <input type="radio" name="redVelvet" id="redVelvet" value="redVelvet">
+    <label for="redVelvet">Pastel Red Velvet</label><br>
+    <input type="radio" name="tradicional" id="tradicional" value="tradicional">
+    <label for="tradicional">Pastel tradicional</label><br>
+
+    <h2>Cubierta</h2>
+    <input type="radio" id="betun" name="betun" value="betun">
+    <label for="betun">Betún</label><br>
+    <input type="radio" id="fondant" name="fondant" value="fondant">
+    <label for="fondant">Fondant</label><br>
+    <input type="radio" id="batida" name="batida" value="batida">
+    <label for="batida">Crema batida</label><br>
+    <input type="radio" id="sinCubierta" name="sinCubierta" value="sinCubierta">
+    <label for="sinCubierta">Sin Cubierta</label><br>
+    
+    <h2>Sabor de pan</h2>
+    <input list="pan">
+    <datalist id="pan">
+        <option value="Vainilla">
+        <option value="Chocolate">
+        <option value="Fresa">
+        <option value="Queso">
+    </datalist><br>
+                    
+    <h2>Confirmar Orden</h2>
+    <input type="submit"><br>
+
+
+</body>
+</html>
